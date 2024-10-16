@@ -12,23 +12,23 @@ generatorButton.addEventListener('click', function () {
   inputValue.style.color = ' #ced4da';
 });
 
-function generateImage() {
-  fetch('https://picsum.photos/200/300') // Fetch a random image of size 200x300 pixels
-    .then(response => {
-      const imageUrl = response.url;
-      const imageContainer = document.querySelector('.imageContainer');
-      const imgElement = document.createElement('img');
-      imgElement.width = 400;
-      imgElement.height = 400;
-      imgElement.src = imageUrl;
-      imageContainer.innerHTML = '';
-      imageContainer.appendChild(imgElement);
-    })
-    .catch(error => console.error('Error fetching image:', error));
-  console.log('now');
-}
+// function generateImage() {
+//   fetch('https://picsum.photos/200/300') // Fetch a random image of size 200x300 pixels
+//     .then(response => {
+//       const imageUrl = response.url;
+//       const imageContainer = document.querySelector('.imageContainer');
+//       const imgElement = document.createElement('img');
+//       imgElement.width = 400;
+//       imgElement.height = 400;
+//       imgElement.src = imageUrl;
+//       imageContainer.innerHTML = '';
+//       imageContainer.appendChild(imgElement);
+//     })
+//     .catch(error => console.error('Error fetching image:', error));
+//   console.log('now');
+// }
 
-// random generator button
-generatorButton.addEventListener('click', function () {
-  generateImage();
-});
+// // random generator button
+// generatorButton.addEventListener('click', function () {
+//   generateImage();
+// });
