@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #adb5bd;
+  font-family: sans-serif;
+  font-size: 25px;
+  width: 920px;
+}
+h2 {
+  font-size: 50px;
+  width: 250px;
+  color: #343a40;
+}
+.theGeneratingArea {
+  background-color: #edf2ff;
+  width: 800;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: flex-start;
+}
+.GeneratingElments {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 500px;
+  margin-left: 50px;
+  font-weight: 700px;
+  /* margin: 40px 40px; */
+}
+.GeneratingParagraph {
+  line-height: 1.5;
+}
+/* .inputStuff {
+  width: 40px;
+} */
+input {
+  width: 490px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 4px;
+  position: relative;
+  color: #ced4da;
+}
+.GenerateButton {
+  position: absolute;
+  transform: translate(-110%, 20%);
+
+  background-color: #bac8ff;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+  height: 30px;
+  cursor: pointer;
+  font-weight: 500;
+}
